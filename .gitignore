@@ -1,3 +1,7 @@
+# macOs System Files
+/.idea
+*.DS_Store
+
 # Prerequisites
 *.d
 
