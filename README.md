@@ -6,7 +6,7 @@ Besides removing some WIP comments, minor refactoring and fixing a potential mem
 
 How to Run on Unix Systems (Linux, MacOs):
 1. Install a c++ compiler (clang or gcc for example)
-2. Open terminal, go to a convenient directory and run: ```git clone git@github.com:FranziskusZillmann/cpp-checkers.git```
+2. Open terminal, go to a convenient directory and run: ```git clone git@github.com:franziskusz/cpp-checkers.git```
 3. Go to src directory ```cd cpp-checkers/src```
 4. run: ```clang++ main.cpp Spielbrett.cpp -o cppcheckers -std=c++14 -Weverything -Wno-c++98-compat -Wno-align -Wno-padded```
 5. run: ```./cppcheckers``` (or another name of your choosing for the binary in the line above)
@@ -20,8 +20,8 @@ PS: All the outputs, variables, classes, functions and comments are in german. I
 |Spieler|Player|
 |Zug|Turn|
 |Brett|Board|
-|Spielbrett|(here:) game state|
+|Spielbrett|(here) game state|
 |anwenden|apply|
 |ungültig|invalid|
 |laufen|walk|
-|schlagen|(here:) capture|
+|schlagen|(here) capture|
